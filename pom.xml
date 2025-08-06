@@ -28,8 +28,21 @@
 
     <build>
         <finalName>simple-servlet</finalName>
+
+        <resources>
+            <resource>
+                <directory>src/main/webapp</directory>
+                <includes>
+                    <include>**/*.html</include>
+                    <include>**/*.css</include>
+                    <include>**/*.js</include>
+                </includes>
+                <targetPath>META-INF/resources</targetPath>
+            </resource>
+        </resources>
+
         <plugins>
-            <!-- WAR Plugin (updated version) -->
+            <!-- WAR Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
