@@ -6,8 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.springframework</groupId>
-  <artifactId>simple-servlet</artifactId>
-  <version>0.1</version>
+  <artifactId>simpleapp</artifactId>
   <packaging>war</packaging>
 
   <properties>
